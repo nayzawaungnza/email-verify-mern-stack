@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 5000;
 //const __dirname = path.resolve();
 
 app.use(cors({
-    origin: ["http://localhost:5173"],
+    origin: ["https://email-verify-mern-stack-pw3s.vercel.app"],
     credentials: true}));
 
 console.log("JWT_SECRET : ",process.env.JWT_SECRET);
