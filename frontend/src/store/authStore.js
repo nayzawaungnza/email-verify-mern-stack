@@ -1,7 +1,7 @@
 import {create} from 'zustand';
 import axios from 'axios';
 
-const API_URL = 'process.env.APP_API_URL/api/auth';
+const API_URL = 'https://email-verify-mern-stack-pw3s.vercel.app/api/auth';
 
 axios.defaults.withCredentials = true;
 
